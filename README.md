@@ -1,8 +1,6 @@
 
 Compile: 
 
-C:\Users\blackout\AppData\Local\Programs\Python\Python36\Scripts\pyinstaller.exe --paths C:\Windows\WinSxS\amd64_avg.vc140.crt_f92d94485545da78_14.0.24210.0_none_69fa0197d9b096ae --hidden-import win10toast --additional-hooks-dir=. --icon=app.ico --onefile --windowed app.py
-
 usage: pyinstaller [-h] [-v] [-D] [-F] [--specpath DIR] [-n NAME]
                    [--add-data <SRC;DEST or SRC:DEST>]
                    [--add-binary <SRC;DEST or SRC:DEST>] [-p DIR]
@@ -20,3 +18,6 @@ usage: pyinstaller [-h] [-v] [-D] [-F] [--specpath DIR] [-n NAME]
                    [--distpath DIR] [--workpath WORKPATH] [-y]
                    [--upx-dir UPX_DIR] [-a] [--clean] [--log-level LEVEL]
                    scriptname [scriptname ...]
+
+
+C:\Users\blackout\AppData\Local\Programs\Python\Python36\Scripts\pyinstaller.exe --paths C:\Windows\WinSxS\amd64_avg.vc140.crt_f92d94485545da78_14.0.24210.0_none_69fa0197d9b096ae --hidden-import win10toast playsound --additional-hooks-dir=. --icon=app.ico --onefile --windowed app.spec
